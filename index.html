@@ -1,25 +1,37 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Portfolio by Faisal9227</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Portfolio by Faisal9227</title>
   </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Portfolio</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/Faisal9227/Portfolio" class="btn">View on GitHub</a>
-      <a href="https://github.com/Faisal9227/Portfolio/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/Faisal9227/Portfolio/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
 
-    <section class="main-content">
-      <h1>
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Portfolio</h1>
+          <h2></h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/Faisal9227/Portfolio/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/Faisal9227/Portfolio/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/Faisal9227/Portfolio" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
 <a id="faisal-mohammad" class="anchor" href="#faisal-mohammad" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Faisal Mohammad</h1>
 
 <p>My Portfolio</p>
@@ -75,7 +87,8 @@ Having enrolled for a Diploma in Computer Engineering, I was exposed to various 
 <h2>
 <a id="projects" class="anchor" href="#projects" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Projects</h2>
 
-<p><strong>Shopping Cart Service on Amazon Cloud and Heroku</strong> (Technologies: Heroku, AWS, NodeJS, AngularJS, Cassandra, Redis, MongoDB, Neo4J)</p>
+<p><strong>Shopping Cart Service on Amazon Cloud and Heroku</strong> (Technologies: Heroku, AWS, NodeJS, AngularJS, Cassandra, Redis, MongoDB, Neo4J)
+github.com/cmpe281-team4/Heroku-Shopping-Cart-AWS-NoSQL-Service</p>
 
 <ul>
 <li>Designed a cloud-based shopping cart like Amazon.com</li>
@@ -85,7 +98,8 @@ Having enrolled for a Diploma in Computer Engineering, I was exposed to various 
 <li>The main focus is on scalability, availability and failure tolerance.</li>
 </ul>
 
-<p><strong>Project Fluffy</strong> (Technologies: Netty, Protobuf, RabbitMQ, PostgreSQL, Cassandra, Java)</p>
+<p><strong>Project Fluffy</strong> (Technologies: Netty, Protobuf, RabbitMQ, PostgreSQL, Cassandra, Java)
+github.com/jagrutipatil/ProjectFluffy</p>
 
 <ul>
 <li>Designed a MongoDB like distributed cluster that accepts key value pair from client and stores it.</li>
@@ -94,7 +108,8 @@ Having enrolled for a Diploma in Computer Engineering, I was exposed to various 
 <li>Designed internal as well as external CRUD operations to store, retrieve, delete and update the data and to maintain proper communication between the modules so as to provide consistency and availability to the user.</li>
 </ul>
 
-<p><strong>Scalable NoSQL Database</strong> (Technologies: Amazon AWS, Java, REST)</p>
+<p><strong>Scalable NoSQL Database</strong> (Technologies: Amazon AWS, Java, REST)
+github.com/jagrutipatil/CMPE281_Cloud</p>
 
 <ul>
 <li>Created a database that supports CAP properties based on user requirement.</li>
@@ -103,7 +118,8 @@ Having enrolled for a Diploma in Computer Engineering, I was exposed to various 
 <li>Allowed user to determine the consistency level and let the user read-write operation quorum so as to make the database control in the hands of the user.</li>
 </ul>
 
-<p><strong>Thrift –A Price Match Application</strong> (Technologies: Android Studio, Google Messaging Service, MySQL)</p>
+<p><strong>Thrift –A Price Match Application</strong> (Technologies: Android Studio, Google Messaging Service, MySQL)
+github.com/Faisal9227/Food-Thrift-Application</p>
 
 <ul>
 <li>Developed an android application to notifies users on prices variation in subscribed store.</li>
@@ -112,7 +128,8 @@ Having enrolled for a Diploma in Computer Engineering, I was exposed to various 
 <li>The backend was supported by PHP and MySQL to make sure that the data received is structured.</li>
 </ul>
 
-<p><strong>Home Automation</strong> (Technologies: Java, NodeJS, Amazon EC2, Google Maps API, REST, MongoDB, Maven)</p>
+<p><strong>Home Automation</strong> (Technologies: Java, NodeJS, Amazon EC2, Google Maps API, REST, MongoDB, Maven)
+github.com/Faisal9227/Smart-Home--Home-Automation-IOT-System</p>
 
 <ul>
 <li>Design and implemented IOT system that enables users to control home appliances using LWM2M model.</li>
@@ -120,9 +137,9 @@ Having enrolled for a Diploma in Computer Engineering, I was exposed to various 
 <li>Handled server side database that stores user location and appropriate actions to be performed</li>
 </ul>
 
-<p><strong>“Combat Fighter”-Game</strong>, San Jose State University</p>
-
-<p>Developed an 2D Game using Greenfoot </p>
+<p><strong>“Combat Fighter”-Game</strong>, San Jose State University
+github.com/Faisal9227/Sam-The-Soldier
+Developed an 2D Game using Greenfoot </p>
 
 <ul>
 <li>Worked on game sprites.</li>
@@ -130,9 +147,9 @@ Having enrolled for a Diploma in Computer Engineering, I was exposed to various 
 <li>Worked on things such as difficulty level, score board and health bar.</li>
 </ul>
 
-<p><strong>UML Parser</strong>, San Jose State University</p>
-
-<p>A java application that parses java code an generates corresponding class diagram</p>
+<p><strong>UML Parser</strong>, San Jose State University
+github.com/Faisal9227/UML-Generator--Java-Parser
+A java application that parses java code an generates corresponding class diagram</p>
 
 <ul>
 <li>Designed algorithm to parse the java file and extract components such as class name, variable name, and function name</li>
@@ -141,9 +158,9 @@ Having enrolled for a Diploma in Computer Engineering, I was exposed to various 
 </li>
 </ul>
 
-<p><strong>Optical Character Recognition</strong>, University of Pune</p>
-
-<p>Developed an application using C#.net to generate an editable text from image</p>
+<p><strong>Optical Character Recognition</strong>, University of Pune
+github.com/Faisal9227/Optical-Character-Recognition
+Developed an application using C#.net to generate an editable text from image</p>
 
 <ul>
 <li>Designed algorithm to recognize the characters in the image</li>
@@ -168,15 +185,15 @@ Having enrolled for a Diploma in Computer Engineering, I was exposed to various 
 <li>Designed business logic to delete useless files and temporary files.</li>
 <li>Implemented logic to clear the browsing history and cookies.</li>
 </ul>
+        </section>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/Faisal9227/Portfolio">Portfolio</a> is maintained by <a href="https://github.com/Faisal9227">Faisal9227</a>.</span>
+        <footer>
+          Portfolio is maintained by <a href="https://github.com/Faisal9227">Faisal9227</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
+        
+      </div>
+    </div>
   </body>
 </html>
