@@ -21,7 +21,7 @@ I have good academic experience in software development as well. During this ten
 * **Maharashtra State Board of Technical Education** Diploma in Computer Engineering (August 2008 – May 2011) 
 
 
-## Projects
+## Experience
 
 **Software Engineer -Cloud, LG Electronics, Santa Clara, USA** 
 **Life Project:** 
