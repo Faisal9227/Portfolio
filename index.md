@@ -1,13 +1,12 @@
 # Faisal Mohammad
-My Portfolio
 
-## Hi There!
+Hi There!
 I am Software Engineering masters graduate from San Jose State University. My Area of Specialization is Enterprise Software Technology and Cloud computing.
 I have excellent professional experience working with Shutterfly Inc. where I have experience working as an individual contributor. Here I was assigned development of web application that was capable communicating with JIRA, outlook services and slack. This opportunity also allowed me to experiment with technologies such as Dockers, Git version control and Grafana and graphite communication.
 I am currently working as Software Engineer - Cloud in LG Electronics, where I am working on Cloud services, along with designing REST gateway for large number of consumers. I am also an integral part of CI/CD team for LG's backend servers and their maintenance. 
 I have good academic experience in software development as well. During this tenure, I had the opportunity to learn various technologies including Java, Javascript, NodeJS, MongoDB, SQL, MySQL, Maven, Jersey and IDEs such as Eclipse, IntelliJ, Greenfoot and many other. I also have experience working on Dockers, cloud instances and Web application development. 
 
-##Technical Skills
+## Technical Skills
 * **Programming Languages**: Java, NodeJS, HTML5, CSS
 * **Frameworks**: Bootstrap, OpenMP, AdonisJS 
 * **Databases**: MySQL, MongoDB, PostgreSQL, Cassandra, Redis 
@@ -15,7 +14,7 @@ I have good academic experience in software development as well. During this ten
 * **Other Skills**: Design Patterns, REST, Agile Methodologies 
 
 
-##Education
+## Education
 * **San Jose State University** MS - Computer Software Engineering (August 2015 - May 2017)
 * **University of Pune** BE - Computer Engineering (August 2011 - May 2014)
 * **Maharashtra State Board of Technical Education** Diploma in Computer Engineering (August 2008 – May 2011) 
@@ -100,5 +99,5 @@ Developed an application using C#.net to generate an editable text from image
 * Implemented the algorithm using C#
 * Managed the database that stored the values for respective sectors and tracks
 
-##Publications
+## Publications
 * Optical Character Recognition Implementation using pattern matching (April 2014)	                         http://www.ijcsit.com/docs/Volume%205/vol5issue02/ijcsit20140502254.pdf
