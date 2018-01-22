@@ -2,53 +2,68 @@
 My Portfolio
 
 ## Hi There!
-I am Masters Student at San Jose State University, majoring in Computer Software Engineering. My Area of Specialization are Enterprise Software Technology and Cloud Computing & Virtualization.
-
-I have good academic experience in software development. During this tenure I had opportunity to learn various technologies including Java, REST, C#.NET, C, C++, Javascript, MongoDB, SQL, MySQL, Maven, Jersey and IDEs such as Eclipse, IntelliJ and Greenfoot.
-Having enrolled for a Diploma in Computer Engineering, I was exposed to various software development techniques at an early age, enabling me to have hands on experience on latest technologies.
-
-In my bachelors with a team of 3 members, I even developed an Optical Character Recognition System that used our own designed algorithm. Moreover, other projects like “Payroll management system” and “Picture Editor” allowed us to play with Java and helped us understand Software development lifecycle. 
-
-In my first semester at San Jose State University, I enrolled for courses like Enterprise Software Platforms, Enterprise Distributed Systems and Systems Software Engineering which introduced me to concepts of Design Patterns and their applications, RESTful web services and concepts of Cloud computing. As a part of subjects, I have implemented projects like “Home Automation” wherein I was able to control home appliances via android application, ”Food Thrift” that used various APIs to provide information about discounts provided by the local grocery shops and “Sam the-Soldier” a 2D game that allowed us to implement various design patterns we learnt. Apart from projects completed in my academics, I engaged myself into hackathons which allowed me to improve in time management skills. During this time I was able to complete my first 3D game - “Relic Hunt” in Global Game Jam 2016.
+I am Software Engineering masters graduate from San Jose State University. My Area of Specialization is Enterprise Software Technology and Cloud computing.
+I have excellent professional experience working with Shutterfly Inc. where I have experience working as an individual contributor. Here I was assigned development of web application that was capable communicating with JIRA, outlook services and slack. This opportunity also allowed me to experiment with technologies such as Dockers, Git version control and Grafana and graphite communication.
+I am currently working as Software Engineer - Cloud in LG Electronics, where I am working on Cloud services, along with designing REST gateway for large number of consumers. I am also an integral part of CI/CD team for LG's backend servers and their maintenance. 
+I have good academic experience in software development as well. During this tenure, I had the opportunity to learn various technologies including Java, Javascript, NodeJS, MongoDB, SQL, MySQL, Maven, Jersey and IDEs such as Eclipse, IntelliJ, Greenfoot and many other. I also have experience working on Dockers, cloud instances and Web application development. 
 
 ##Technical Skills
-* **Programming Languages**: Strong foundation in Java, C, C++, C#, REST, Tomcat, HTML5, CSS; familiarity with JavaScript, Design Patterns, MAVEN and Jersey 
-* **Operating Systems**: Linux, Windows 
-* **Databases**: MySQL, DB2, MongoDB 
-* **Software**: Eclipse; Visual Studio; IntelliJ IDEA; Greenfoot 
-* **Other Skills**: Design Patterns, Agile Methodologies 
+* **Programming Languages**: Java, NodeJS, HTML5, CSS
+* **Frameworks**: Bootstrap, OpenMP, AdonisJS 
+* **Databases**: MySQL, MongoDB, PostgreSQL, Cassandra, Redis 
+* **Tools & Technologies**: Amazon AWS, Docker, Eclipse, IntelliJ, Greenfoot, Android Studio, Google Messaging Service 
+* **Other Skills**: Design Patterns, REST, Agile Methodologies 
 
 
 ##Education
-* **San Jose State University** MS - Computer Software Engineering (August 2015 - Present)
+* **San Jose State University** MS - Computer Software Engineering (August 2015 - May 2017)
 * **University of Pune** BE - Computer Engineering (August 2011 - May 2014)
-* **Maharashtra State Board of Technical Education** Diploma in Computer Engineering (July 2008 – May 2011) 
+* **Maharashtra State Board of Technical Education** Diploma in Computer Engineering (August 2008 – May 2011) 
 
-##Publications
-* Optical Character Recognition Implementation using pattern matching (April 2014)	                         http://www.ijcsit.com/docs/Volume%205/vol5issue02/ijcsit20140502254.pdf
+
+## Projects
+
+**Software Engineer -Cloud, LG Electronics, Santa Clara, USA** 
+**Life Project:** 
+*	Engineered and maintained backend APIs for LG’s Life project that communicates with Wowza Streaming Engine and provides low latency live streaming and VOD demand capabilities for fitness accessories such as Treadmill.
+*	Enabled serial communication between Raspberry Pi and LG’s WebOS allowing Treadmill to communicate with touch-enabled UI
+**Fitness Manager:**
+*	Maintained customer-facing APIs for LG’s fitness devices. Including LG’s smartwatch, fitness band, and smart-shoes.
+*	Handled data migration and sharding for fitness services for Korean and European data centers.
+*	Engineered B2B APIs to enable information retrieval from devices including life-band, fitness band and smart-shoes. 
+**Promota:**
+*	Worked on consumer-facing APIs for LGs Promota mobile application, that communicates with chromecast and provides digital signage solutions to small businesses.
+*	Handled data migration support for API support for Promota-Go website.
+*	Engineered microservices based architecture that allowed easy scalability and maintenance of the system 
+
+**Software Intern, Shutterfly, Santa Clara, USA**
+*	Engineered MVC based internal email system for the NOC team that automates JIRA incident reporting, issue ticket automatically and displays all the messages exchanged over an issue
+*	Integrated the application with Grafana and Graphite to produce real-time images for business and NOC team.
+*	Application scaled with the number of users increased and has the ability to asynchronously service the received messages.
+
 
 ## Projects
 
 **Shopping Cart Service on Amazon Cloud and Heroku** (Technologies: Heroku, AWS, NodeJS, AngularJS, Cassandra, Redis, MongoDB, Neo4J)
 github.com/cmpe281-team4/Heroku-Shopping-Cart-AWS-NoSQL-Service
-* Designed a cloud-based shopping cart like Amazon.com
-* Multiple databases at back end to support various aspects of CAP properties
-* Maintained user sessions using Redis, Supporting Analytics and user activity log using Cassandra, designing Product catalog using mongoDB, making a recommendation system using Neo4J.
-* The frontend scalable UI rests on Heroku while the backend databases and NodeJS web server rest on EC2 while ELB used to scale the respective modules wherever required.
-* The main focus is on scalability, availability and failure tolerance.
+*	Designed a cloud-based shopping cart like Amazon.com with multiple databases at back end to support various aspects of CAP properties
+*	Maintained user sessions using Redis, supported Analytics and user activity log using Cassandra, designed Product catalog using MongoDB, making a recommendation system using Neo4J.
+*	Scalable frontend UI rested on Heroku while the backend databases and NodeJS web server rested on EC2 with ELB used to scale the respective modules wherever required.
+*	The main focus is on scalability, availability and failure tolerance.
+
 
 **Project Fluffy** (Technologies: Netty, Protobuf, RabbitMQ, PostgreSQL, Cassandra, Java)
 github.com/jagrutipatil/ProjectFluffy
-* Designed a MongoDB like distributed cluster that accepts key value pair from client and stores it.
-* Implemented RAFT leader election algorithm to maintain consistency and partition tolerance.
-* The project supported multiple databases so as to make sure that the user does not restrict itself to use single database
-* Designed internal as well as external CRUD operations to store, retrieve, delete and update the data and to maintain proper communication between the modules so as to provide consistency and availability to the user.
+*	Engineered a MongoDB like distributed cluster using RAFT leader election algorithm to maintain consistency and partition tolerance that accepts key-value pair from client and stores it.
+*	The project supported multiple databases Cassandra for unstructured and Postgres for structured to make sure that the user does not restrict itself to use single database
+*	Designed internal as well as external CRUD operations to store, retrieve, delete and update the data and to maintain proper communication between the modules to provide consistency and availability to the user.
+
 
 **Scalable NoSQL Database** (Technologies: Amazon AWS, Java, REST)
 github.com/jagrutipatil/CMPE281_Cloud
 * Created a database that supports CAP properties based on user requirement.
 * Implemented a "three node" cluster of the database created on AWS EC2 instances to support both AP and CP properties based on user requirements.
-* External access is supported by REST and internal replication supported by the system.
+* Supported external access by REST and internal replication supported by the system.
 * Allowed user to determine the consistency level and let the user read-write operation quorum so as to make the database control in the hands of the user.
 
 **Thrift –A Price Match Application** (Technologies: Android Studio, Google Messaging Service, MySQL)
@@ -64,7 +79,7 @@ github.com/Faisal9227/Smart-Home--Home-Automation-IOT-System
 * Developed a lightweight web application for the mobile phone that tracks user location and has basic controls for user facilities modeled data, maintained a database and implemented REST calls such as a device on/off so as to control client devices remotely.
 * Handled server side database that stores user location and appropriate actions to be performed
 
-**“Combat Fighter”-Game**, San Jose State University
+**“Sam the Soldier”-Game**, San Jose State University
 github.com/Faisal9227/Sam-The-Soldier
 Developed an 2D Game using Greenfoot 
 * Worked on game sprites.
@@ -85,14 +100,5 @@ Developed an application using C#.net to generate an editable text from image
 * Implemented the algorithm using C#
 * Managed the database that stored the values for respective sectors and tracks
 
-**Payroll Management System**, University of Pune 
-
-Application to manage salaries and HR information using Java
-* Designed data management techniques to manage employee details
-* Implemented the complete business logic in JAVA for the same
-
-**System Tuner**, Maharashtra State Board of Technical Education
-
-Application to provide all system tuning utilities on one click
-* Designed business logic to delete useless files and temporary files.
-* Implemented logic to clear the browsing history and cookies.
+##Publications
+* Optical Character Recognition Implementation using pattern matching (April 2014)	                         http://www.ijcsit.com/docs/Volume%205/vol5issue02/ijcsit20140502254.pdf
