@@ -22,14 +22,17 @@ I have good academic experience in software development as well. During this ten
 
 ## Experience
 
-**Software Engineer -Cloud, LG Electronics, Santa Clara, USA** 
+**Software Engineer -Cloud, LG Electronics, Santa Clara, USA**
+
 **Life Project:** 
 *	Engineered and maintained backend APIs for LG’s Life project that communicates with Wowza Streaming Engine and provides low latency live streaming and VOD demand capabilities for fitness accessories such as Treadmill.
 *	Enabled serial communication between Raspberry Pi and LG’s WebOS allowing Treadmill to communicate with touch-enabled UI
+
 **Fitness Manager:**
 *	Maintained customer-facing APIs for LG’s fitness devices. Including LG’s smartwatch, fitness band, and smart-shoes.
 *	Handled data migration and sharding for fitness services for Korean and European data centers.
 *	Engineered B2B APIs to enable information retrieval from devices including life-band, fitness band and smart-shoes. 
+
 **Promota:**
 *	Worked on consumer-facing APIs for LGs Promota mobile application, that communicates with chromecast and provides digital signage solutions to small businesses.
 *	Handled data migration support for API support for Promota-Go website.
